@@ -1,0 +1,47 @@
+.tutedude{
+    width: 160px;
+    height: 63px;
+}
+.light{
+    color:rgb(233, 152, 233)
+}
+.dark{
+    color: purple;
+    position: absolute;
+    top:25px;
+    left: 86vw;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.dark img{
+    height: 15px;
+width: 15px;
+left: 2px;
+top: 2px;
+border-radius: 0px;
+
+}
+#assignment{
+    position: absolute;
+    top:25px;
+    left: 57vw;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#mentor{
+    position: absolute;
+    left: 70vw;
+    top:25px;
+font-size: 18px;
+font-weight: 500;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: center;
+
+}

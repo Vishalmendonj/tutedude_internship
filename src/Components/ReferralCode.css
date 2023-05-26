@@ -1,0 +1,23 @@
+.referral{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    top: 200px;
+    left: 600px;
+    color: purple;
+    width: 280px;
+}
+.referral h1{
+    font-size: 18px;
+}
+.code{
+    border: 1px solid rgb(239, 160, 160);
+    border-radius: 36px;
+    display: flex;
+    justify-content: space-around;
+}
+.code h3{
+    font-size: 15px;
+    color: purple;
+}

@@ -1,0 +1,27 @@
+.image-data{
+    /* position: absolute; */
+    display: flex;
+    /* border: 2px solid black; */
+    width: 300px;
+    margin: 15px;
+}
+.image-data img{
+
+    padding: 3px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    background-color: rgba(217, 217, 217, 0.25);
+}
+.info{
+    margin-left: 15px;
+}
+.info h5{
+    /* position: absolute; */
+    margin-top: 5px;
+    
+}
+.info p{
+    font-size: 12px;
+    margin-top: 5px;
+}

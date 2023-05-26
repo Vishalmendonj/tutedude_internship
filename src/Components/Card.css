@@ -1,0 +1,36 @@
+.card-main{
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    /* border: 10px solid black; */
+}
+    
+.card{
+    position:absolute;
+    display: flex;
+    top: 200px;
+    left: 120px;
+    /* border: 1px solid black; */
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 150px;
+}
+.cardinfo{
+    margin: 16px;
+    font-size: 14px;
+    color: purple;
+}
+.cardinfo h1{
+    color: black;
+}
+.btn button{
+    position: absolute;
+    left: 95px;
+    top: 105px;
+    border-radius:36px;
+    background-color: purple;
+    color: white;
+    width: 150px;
+    height: 35px;
+    font-size: 12px;
+    border: 1px solid white;
+}

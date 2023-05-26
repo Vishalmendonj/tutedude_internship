@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+     
+}
+.para{
+    position: absolute;
+    /* display: block; */
+    height: 21px;
+width: 138px;
+left: 127px;
+top: 103px;
+font-size: 14px;
+
+}
+.balance{
+    display: flex;
+    
+}
+
+.procedure-content{
+    position: absolute;
+    top: 400px;
+    left: 120px;
+    /* border: 2px solid black; */
+    width: 70%;
+    height: 300px;
+}
+.procedure-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+.other-info{
+    margin-top: 750px;
+    margin-left: 120px;
+    color: purple;
+}
+
+@media (max-width:400px) {
+    .tutedude{
+        width: 150px;
+        height: 60px;
+    }
+    .light{
+        display: none;
+    }
+    .dark{
+        
+        width: 180px;
+        height: 60px;
+        border: 1px solid white;
+        border-radius: 36px;
+        background-color: purple;
+        color: white;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+    }
+
+    .card{
+        width: 380px;
+        flex-wrap: wrap;
+    }
+    .balance{
+        display: flex;
+        flex-direction: column;
+    }
+}
